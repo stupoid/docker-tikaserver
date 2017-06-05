@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:latest
 
 ENV TIKA_VERSION 1.15
 ENV TIKA_SERVER_URL https://www.apache.org/dist/tika/tika-server-$TIKA_VERSION.jar
